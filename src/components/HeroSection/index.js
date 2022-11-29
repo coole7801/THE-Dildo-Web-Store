@@ -7,6 +7,7 @@ const HeroSection = () => {
     <HeroContainer>
       <HeroBg>
         <VideoBg autoPlay loop muted src={Video} type='video/mp4' />
+        <div id='overlay'></div>
       </HeroBg>
     </HeroContainer>
   )
