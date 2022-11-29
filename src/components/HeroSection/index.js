@@ -1,5 +1,5 @@
 import React from 'react'
-import Image from '../../images/image.jpg'
+import Image from '../../images/image2.jpg';
 import { HeroContainer, HeroBg, ImageBg } from './HeroElements'
 
 const HeroSection = () => {

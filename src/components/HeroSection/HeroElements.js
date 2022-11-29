@@ -1,6 +1,5 @@
 import styled from "styled-components";
 
-
 export const HeroContainer = styled.div`
     background: black;
     display: flex;
@@ -27,6 +26,6 @@ export const ImageBg = styled.image`
     width: 100%;
     height: 100%;
     -o-object-fit: cover;
-    -o-object-fit: cover;
     object-fit: cover;
+    backround: black;
 `;
