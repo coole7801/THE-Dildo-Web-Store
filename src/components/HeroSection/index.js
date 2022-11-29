@@ -1,12 +1,12 @@
 import React from 'react'
-import Image from '../../images/image2.jpg';
-import { HeroContainer, HeroBg, ImageBg } from './HeroElements'
+import Video from '../../videos/video.mp4';
+import { HeroContainer, HeroBg, VideoBg } from './HeroElements'
 
 const HeroSection = () => {
   return (
     <HeroContainer>
       <HeroBg>
-        <ImageBg src={Image} type='image/jpg' />
+        <VideoBg autoPlay loop muted src={Video} type='video/mp4' />
       </HeroBg>
     </HeroContainer>
   )
